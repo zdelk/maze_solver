@@ -9,7 +9,7 @@ def main():
     screen_y = 600
     cell_size_x = (screen_x - 2 * margin) / num_cols
     cell_size_y = (screen_y - 2 * margin) / num_rows
-    seed = 1
+    seed = 42
 
     win = Window(screen_x, screen_y)
 
